@@ -1,0 +1,33 @@
+
+header{
+    background: #92A8D1;
+}
+#nombre{
+    display: inline-block;
+    width: 149px;
+    height: 83px;
+    left: 44px;
+    top: 18px;
+    color: #fff; 
+    padding: 15px;   
+}
+#nombre h1{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 29px;
+    text-transform: uppercase;
+}
+#navbar{
+    display: inline-block;
+    padding: 5px;
+    
+}
+#navbar a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 15px;
+}

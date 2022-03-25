@@ -86,10 +86,17 @@ header{
     
 }
 
-#educacion p, #experiencia p{
+.titulo{
     text-transform: uppercase;
     font-size: 15px;
     font-weight: 200;
-    line-height: 270px;
+    line-height: 20px;
+    text-align: center;
+}
+
+#educacion p, #experiencia p{
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 50px;
     text-align: center;
 }

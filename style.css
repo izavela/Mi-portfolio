@@ -42,6 +42,7 @@ header{
     line-height: 40px;
 }
 #lead-content{
+   
     display: block;
     height: 400px;
     width:auto;
@@ -99,4 +100,10 @@ header{
     font-weight: 200;
     line-height: 50px;
     text-align: center;
+}
+footer{
+    background-color: aqua;
+    display: inline-block;
+    position: sticky;
+    
 }

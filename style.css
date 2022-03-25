@@ -21,7 +21,8 @@ header{
 }
 #navbar{
     display: inline-block;
-    padding: 5px;
+    padding: 20px;
+    
     
 }
 #navbar a{
@@ -30,4 +31,9 @@ header{
     color: #fff;
     text-transform: uppercase;
     padding: 15px;
+}
+#nubes{
+    display: block;
+    transform: rotate(90deg);
+    width: auto;
 }

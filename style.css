@@ -1,22 +1,26 @@
 
 header{
     background: #92A8D1;
+    height: 90px;
+    width: auto;
+    border-radius: 40px;
 }
 #nombre{
     display: inline-block;
-    width: 149px;
-    height: 83px;
+    width: 150px;
+    height: 50px;
     left: 44px;
     top: 18px;
     color: #fff; 
-    padding: 15px;   
+    padding-left: 50px;  
+    padding-top: 10px; 
 }
 #nombre h1{
     font-family: 'Jost';
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 20px;
-    line-height: 29px;
+    line-height: 20px;
     text-transform: uppercase;
 }
 #navbar{
@@ -31,9 +35,25 @@ header{
     color: #fff;
     text-transform: uppercase;
     padding: 15px;
+    line-height: 40px;
 }
-#nubes{
+#lead-content{
     display: block;
-    transform: rotate(90deg);
-    width: auto;
+    height: 500px;
+    width:auto;
+    background-color: #92A8D1;
+    background-image: url(C:\Users\Lenovo\OneDrive\Escritorio\proyecto\portfolio\assets\nubes.jpg);
+    border-radius: 40px;
+}
+#lead-content p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 500px;
+    margin-left: 200px;
+/* identical to box height */
+    text-transform: uppercase;
+    color: #FFFFFF;
+    
+
 }

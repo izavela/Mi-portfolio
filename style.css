@@ -61,12 +61,35 @@ header{
     
 
 }
+#lead{
+    position: relative;
+}
+#educacion{
+    position: absolute;
+   top: 50%;
+   left: 50%;
+}
+#experiencia{
+    position: absolute;
+   top: 50%;
+   right: 50%;
+}
 #educacion, #experiencia{
+   
     display: inline-block;
     background-color: #C5B9CD;
     margin-top: 15px;
+    margin-left: 15px;
     width: 500px;
     height: 300px;
     border-radius: 40px;
+    
 }
 
+#educacion p, #experiencia p{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 270px;
+    text-align: center;
+}

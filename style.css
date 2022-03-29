@@ -1,15 +1,17 @@
 body{
+    
     background-color:#F7CAC9;
 }
-header{
+.container-fluid{
+   
     background: #92A8D1;
-    height: 90px;
+    height: 100px;
     width: auto;
     border-radius: 40px;
     position: sticky;
     top: 20px;
 }
-#nombre{
+.navbar-brand{
     display: inline-block;
     width: 150px;
     height: 50px;
@@ -19,7 +21,7 @@ header{
     padding-left: 50px;  
     padding-top: 10px; 
 }
-#nombre h1{
+.navbar-brand h1{
     font-family: 'Jost';
     font-style: normal;
     font-weight: 500;
@@ -27,13 +29,13 @@ header{
     line-height: 20px;
     text-transform: uppercase;
 }
-#navbar{
-    display: inline-block;
+.navbar-nav{
+    float: right;
     padding: 20px;
     
     
 }
-#navbar a{
+.item{
     display: inline-block;
     text-decoration: none;
     color: #fff;
@@ -47,7 +49,7 @@ header{
     height: 400px;
     width:auto;
     background-color: #92A8D1;
-    background-image: url(C:\Users\Lenovo\OneDrive\Escritorio\proyecto\portfolio\assets\nubes.jpg);
+    background-image: url(assets/nubes.jpg);
     border-radius: 40px;
 }
 #lead-content p{
@@ -56,36 +58,23 @@ header{
     font-size: 20px;
     line-height: 400px;
     margin-left: 200px;
-/* identical to box height */
+
     text-transform: uppercase;
     color: #FFFFFF;
     
 
 }
-#lead{
-    position: relative;
-}
-#educacion{
-    position: absolute;
-   top: 50%;
-   left: 50%;
-}
-#experiencia{
-    position: absolute;
-   top: 50%;
-   right: 50%;
-}
+
 #educacion, #experiencia{
-   
-    display: inline-block;
     background-color: #C5B9CD;
     margin-top: 15px;
     margin-left: 15px;
     width: 500px;
     height: 300px;
     border-radius: 40px;
-    
+  
 }
+
 
 .titulo{
     text-transform: uppercase;
@@ -103,7 +92,6 @@ header{
 }
 footer{
     background-color: aqua;
-    display: inline-block;
-    position: sticky;
-    
+    float: inline-end;
+
 }
